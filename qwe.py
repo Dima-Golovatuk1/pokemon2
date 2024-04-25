@@ -1,0 +1,6 @@
+file = open("input.txt", "r")
+file_output = open("output.txt", "w+")
+a = file.readline()
+output = set(a)
+list(output)
+file_output.writelines(output)
